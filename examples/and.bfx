@@ -1,0 +1,18 @@
+%
+Takes #0 and #1 and returns the bitwise AND of both cells onto #-1
+params:
+  #0: AND target 1 
+  #1: AND target 2
+return:
+  #-1: AND result
+%
+
+\and\
+    <[-]             % Clear result cell first    %
+    >[               % if #0 != 0                 % 
+    >[<<+>> -]       % drain #1 to #-1            %
+    < -
+    ]
+\
+
+

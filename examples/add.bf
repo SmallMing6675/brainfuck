@@ -1,5 +1,0 @@
-++++++++++           first argument
->+++++               second argument
-
-[<+>-]                 
-
